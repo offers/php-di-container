@@ -1,0 +1,22 @@
+{
+  "name": "offers/di-container",
+  "description": "Offers.com PHP Dependency Injection Container",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Josh Butts",
+      "email": "josh@joshbutts.com"
+    }
+  ],
+  "require": {
+    "php": ">=7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Offers\\Di\\": "src/"
+    }
+  }
+}
